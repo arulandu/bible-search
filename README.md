@@ -11,6 +11,7 @@ If the file is added to path, simply run
 ```shell
 bible John 1:1-3
 ```
+
 ### Commands
 ```shell
 bible [ref]
@@ -22,6 +23,9 @@ bible [ref]
 - [book] [chapter] : [verseStart] - [verseEnd]
 
 Currently, the project does not support cross-chapter queries.
+
+### Notes
+Note that this utility requires internet connection to make web requests using `url`.
 
 ## Installation
 ### Windows
